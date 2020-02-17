@@ -20,25 +20,22 @@ If WinExist("ahk_exe bf1.exe") {
 	Gui, 1:Destroy
 	CoordMode, Mouse, Window
 	WinActivate, ahk_exe bf1.exe
-	;MouseGetPos, xpos, ypos
 	Gui, 1:Add, Text,, Quantos cliques?
 	Gui, 1:Add, Edit
 	Gui, 1:Add, UpDown, vCliques Range0-100000000, 10, 0x80
-	Gui, 1:Add, Button, x9 y50 w122 Default, Clica!
-	;Gui, 1:Add, Button, x71 y50 w60, Fechar
+	Gui, 1:Add, Button, x9 y50 w122 Default, Open!
 	Gui, 1:Add, Progress, x9 y77 w122 h20 cBlue backgroundWhite -Smooth vCliquesProgresso, 0
-	;Gui, 1:Add, StatusBar,,
 	Gui, 1:Show, AutoSize
 	WinSet, AlwaysOnTop, On, AutoHotKey
 	Return
 
-	ButtonClica!:
+	ButtonOpen!:
 		Gui, 1:Submit, NoHide
 		WinActivate, ahk_exe bf1.exe
 
 		iCliques := 0
 		Loop %Cliques% {
-			Click 358, 711  ; open
+			Click 358, 711   ; open
 			Sleep, 2000
 			Click 169, 1009  ; skip
 			Sleep, 2000
@@ -46,9 +43,9 @@ If WinExist("ahk_exe bf1.exe") {
 			Sleep, 2000
 			Click 169, 1009  ; skip
 			Sleep, 500
-			Click 940, 675  ; add to inventory
+			Click 940, 675   ; add to inventory
 			Sleep, 2000
-			Click 940, 630  ; add to inventory
+			Click 940, 630   ; add to inventory
 
 			iCliques+=1
 			ProgressVal := (100*iCliques)/Cliques
@@ -60,7 +57,6 @@ If WinExist("ahk_exe bf1.exe") {
 		WinActivate
 		Return
 
-	;ButtonFechar:
 	GuiEscape:
 	GuiClose:
 		Gui, 1:Destroy
