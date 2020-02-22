@@ -15,6 +15,35 @@
 
 ;#z::Run www.autohotkey.com
 
+refScreenX := 1920
+refScreenY := 1080
+
+getRelCoord(Coord, Total) {
+	return Coord / Total
+}
+getRawCoord(Coord, Total) {
+	return Coord * Total
+}
+
+getRelPos(x, y) {
+	global refScreenX
+	global refScreenY
+
+	relX := getRelCoord(x, refScreenX)
+	relY := getRelCoord(y, refScreenY)
+	rawX := getRawCoord(relX, A_ScreenWidth)
+	rawY := getRawCoord(relY, A_ScreenHeight)
+
+	return [Round(rawX), Round(rawY)]
+}
+
+clickRel(x, y) {
+	convCoords := getRelPos(x, y)
+	
+	MouseClick, left, convCoords[1], convCoords[2]
+	Return
+}
+
 F6::
 If WinExist("ahk_exe bf1.exe") {
 	Gui, 1:Destroy
@@ -35,17 +64,17 @@ If WinExist("ahk_exe bf1.exe") {
 
 		iCliques := 0
 		Loop %Cliques% {
-			Click 358, 711   ; open
+			clickRel(358,  711)  ; open
 			Sleep, 2000
-			Click 169, 1009  ; skip
+			clickRel(169, 1009)  ; skip
 			Sleep, 2000
-			Click 169, 1009  ; skip
+			clickRel(169, 1009)  ; skip
 			Sleep, 2000
-			Click 169, 1009  ; skip
+			clickRel(169, 1009)  ; skip
 			Sleep, 500
-			Click 940, 675   ; add to inventory
+			clickRel(940,  675)  ; add to inventory
 			Sleep, 2000
-			Click 940, 630   ; add to inventory
+			clickRel(940,  630)  ; add to inventory
 
 			iCliques+=1
 			ProgressVal := (100*iCliques)/Cliques
