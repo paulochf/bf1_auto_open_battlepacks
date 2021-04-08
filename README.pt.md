@@ -20,6 +20,7 @@ Abra suas caixas infinitas sem esforço!
 11. Repita os passos 8-10 até você não ter mais caixas para abrir.
 12. Volte ao Menu Principal, e então à tela de configurações de Video (More->Options->Video).
 13. Altere as configurações de Fullscreen Mode e Fullscreen Resolution para os valores anteriores.
+14. Você pode clicar com o botão direito no "ícone H branco em fundo verde" e daí em Exit.
 
 
 Agora você poderá vender os items por moedas conforme sua vontade:

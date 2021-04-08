@@ -20,6 +20,7 @@ Open your infinite Battlepacks without effort!
 11. Repeat steps 8-10 until you don't have more boxes.
 12. Go back to the Main Menu, then to Video Options screen (More->Options->Video).
 13. Replace Fullscreen Mode and Fullscreen Resolution to the previous values.
+14. You can right click that "icon with a white H in a green background" and then Exit.
 
 
 Now you can scrap things for coins:
