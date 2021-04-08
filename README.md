@@ -10,8 +10,8 @@ Open your infinite Battlepacks without effort!
 3. Run the script (double click it should work). An icon with a white H in a green background should appear in your operational system's icon bar.
 4. Open BF1, go to Video Options screen (More->Options->Video).
 5. Change the following video settings:
-    - Fullscreen Mode: Fullscreen
-    - Fullscreen Resolution: 1024x768 (same frequency you normaly use)
+    - Fullscreen Mode: **Fullscreen**
+    - Fullscreen Resolution: **1024x768** (same frequency you normaly use)
 6. Click on Apply Video Settings at the bottom and confirm you want to keep the settings.
 7. Go back to the Main Menu and enter the Battlepacks screen.
 8. Press F6 to open the script screen.

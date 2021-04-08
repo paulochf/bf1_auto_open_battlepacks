@@ -10,8 +10,8 @@ Abra suas caixas infinitas sem esforço!
 3. Execute o script (clique duplo deveria funcionar). Um ícone H branco em fundo verde deverá aparecer na barra de ícones do seu sistema operacional.
 4. Abra o BF1, vá até a tela de configurações de Video (More->Options->Video no jogo em inglês).
 5. Altere as seguintes configurações para os valores indicados:
-    - Fullscreen Mode: Fullscreen
-    - Fullscreen Resolution: 1024x768 (mantenha a frequência que normalmente usa)
+    - Fullscreen Mode: **Fullscreen**
+    - Fullscreen Resolution: **1024x768** (mantenha a frequência que normalmente usa)
 6. Clique em Apply Video Settings na parte inferior e confirme que você deseja manter essas configurações.
 7. Volte ao Menu Principal e entre na tela das Caixas.
 8. Aperte F6 para abrir a tela do script.
