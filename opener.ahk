@@ -15,9 +15,6 @@
 
 ;#z::Run www.autohotkey.com
 
-refScreenX := 1920
-refScreenY := 1080
-
 getRelCoord(Coord, Total) {
 	return Coord / Total
 }
@@ -26,13 +23,8 @@ getRawCoord(Coord, Total) {
 }
 
 getRelPos(x, y) {
-	global refScreenX
-	global refScreenY
-
-	relX := getRelCoord(x, refScreenX)
-	relY := getRelCoord(y, refScreenY)
-	rawX := getRawCoord(relX, A_ScreenWidth)
-	rawY := getRawCoord(relY, A_ScreenHeight)
+	rawX := getRawCoord(x, A_ScreenWidth)
+	rawY := getRawCoord(y, A_ScreenHeight)
 
 	return [Round(rawX), Round(rawY)]
 }
@@ -51,7 +43,7 @@ If WinExist("ahk_exe bf1.exe") {
 	WinActivate, ahk_exe bf1.exe
 	Gui, 1:Add, Text,, Quantos cliques?
 	Gui, 1:Add, Edit
-	Gui, 1:Add, UpDown, vCliques Range0-100000000, 10, 0x80
+	Gui, 1:Add, UpDown, vCliques Range1-100000000, 10, 0x80
 	Gui, 1:Add, Button, x9 y50 w122 Default, Open!
 	Gui, 1:Add, Progress, x9 y77 w122 h20 cBlue backgroundWhite -Smooth vCliquesProgresso, 0
 	Gui, 1:Show, AutoSize
@@ -64,20 +56,20 @@ If WinExist("ahk_exe bf1.exe") {
 
 		iCliques := 0
 		Loop %Cliques% {
-			clickRel(358,  711)  ; open
+			clickRel(.25, .63)
 			Sleep, 2000
-			clickRel(169, 1009)  ; skip
-			Sleep, 2000
-			clickRel(169, 1009)  ; skip
-			Sleep, 2000
-			clickRel(169, 1009)  ; skip
+			clickRel(1/12, 11/12)  ; skip
+			Sleep, 1500
+			clickRel(1/12, 11/12)  ; skip
+			Sleep, 1500
+			clickRel(1/12, 11/12)  ; skip
 			Sleep, 500
-			clickRel(940,  675)  ; add to inventory
+			clickRel(.5, .6)       ; add to inventory
 			Sleep, 2000
-			clickRel(940,  630)  ; add to inventory
+			clickRel(.5, .57)      ; add to inventory
 
 			iCliques+=1
-			ProgressVal := (100*iCliques)/Cliques
+			ProgressVal := (100*iCliques) / Cliques
 			GuiControl, 1:, CliquesProgresso, %ProgressVal%
 			SB_SetText("Clicando " . iCliques . "/" . Cliques)
 			Sleep 2000
