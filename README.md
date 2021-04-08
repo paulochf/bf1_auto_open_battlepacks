@@ -20,8 +20,8 @@ Open your infinite Battlepacks without effort!
 11. Repeat steps 8-10 until you don't have more boxes.
 
 Now you can scrap things for coins:
-    - at the Inventory screen (Battlepacks -> Inventory):
-        - scrap the duplicate skins using the button at the left;
-        - scrap the Squad XP Boost: select it at the left, then you should see the scrap button at the right;
-    - at the Puzzles screen (Battlepacks -> Puzzles):
-        - enter each weapon you've built already and scrap its sparing puzzles pieces, if any;
+- at the Inventory screen (Battlepacks -> Inventory):
+    - scrap the duplicate skins using the button at the left;
+    - scrap the Squad XP Boost: select it at the left, then you should see the scrap button at the right;
+- at the Puzzles screen (Battlepacks -> Puzzles):
+    - enter each weapon you've built already and scrap its sparing puzzles pieces, if any;
