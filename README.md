@@ -9,15 +9,18 @@ Open your infinite Battlepacks without effort!
 2. Download the [script file](https://gitlab.com/paulochf/bf1_auto_open_battlepacks/-/raw/master/opener.ahk) to your computer. Pay attention: save the file with .ahk extension!
 3. Run the script (double click it should work). An icon with a white H in a green background should appear in your operational system's icon bar.
 4. Open BF1, go to Video Options screen (More->Options->Video).
-5. Change the following video settings:
+5. For the following video settings, take note of their current values and then replace to:
     - Fullscreen Mode: **Fullscreen**
-    - Fullscreen Resolution: **1024x768** (same frequency you normaly use)
+    - Fullscreen Resolution: **1024x768** (same frequency you were using)
 6. Click on Apply Video Settings at the bottom and confirm you want to keep the settings.
 7. Go back to the Main Menu and enter the Battlepacks screen.
 8. Press F6 to open the script screen.
 9. Fill in the amount of times the script will run. Put a number greater than the Battlepacks you have.
-10. Go for a walk.
+10. Go for a walk, don't use the PC.
 11. Repeat steps 8-10 until you don't have more boxes.
+12. Go back to the Main Menu, then to Video Options screen (More->Options->Video).
+13. Replace Fullscreen Mode and Fullscreen Resolution to the previous values.
+
 
 Now you can scrap things for coins:
 - at the Inventory screen (Battlepacks -> Inventory):
@@ -25,4 +28,3 @@ Now you can scrap things for coins:
     - scrap the Squad XP Boost: select it at the left, then you should see the scrap button at the right;
 - at the Puzzles screen (Battlepacks -> Puzzles):
     - enter each weapon you've built already and scrap its sparing puzzles pieces, if any;
-

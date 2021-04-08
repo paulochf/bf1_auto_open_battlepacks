@@ -9,15 +9,18 @@ Abra suas caixas infinitas sem esforço!
 2. Baixe o [arquivo do script](https://gitlab.com/paulochf/bf1_auto_open_battlepacks/-/raw/master/opener.ahk) para seu computador. Preste atenção: salve o arquivo como extensão .ahk!
 3. Execute o script (clique duplo deveria funcionar). Um ícone H branco em fundo verde deverá aparecer na barra de ícones do seu sistema operacional.
 4. Abra o BF1, vá até a tela de configurações de Video (More->Options->Video no jogo em inglês).
-5. Altere as seguintes configurações para os valores indicados:
+5. Para as seguintes configurações, anote os valores atuais e então altere para os valores indicados:
     - Fullscreen Mode: **Fullscreen**
     - Fullscreen Resolution: **1024x768** (mantenha a frequência que normalmente usa)
 6. Clique em Apply Video Settings na parte inferior e confirme que você deseja manter essas configurações.
 7. Volte ao Menu Principal e entre na tela das Caixas.
 8. Aperte F6 para abrir a tela do script.
 9. Preencha com a quantidade de vezes que o script deverá executar. Coloque um número superior ao de caixas que você possui.
-10. Vá dar um rolê.
+10. Vá dar um rolê, não use o computador!
 11. Repita os passos 8-10 até você não ter mais caixas para abrir.
+12. Volte ao Menu Principal, e então à tela de configurações de Video (More->Options->Video).
+13. Altere as configurações de Fullscreen Mode e Fullscreen Resolution para os valores anteriores.
+
 
 Agora você poderá vender os items por moedas conforme sua vontade:
 - na tela de Inventário (Battlepacks -> Inventory):
