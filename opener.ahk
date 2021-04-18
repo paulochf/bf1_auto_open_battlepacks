@@ -41,21 +41,21 @@ If WinExist("ahk_exe bf1.exe") {
 	Gui, 1:Destroy
 	CoordMode, Mouse, Window
 	WinActivate, ahk_exe bf1.exe
-	Gui, 1:Add, Text,, Quantos cliques?
+	Gui, 1:Add, Text,, Open Battlepacks #
 	Gui, 1:Add, Edit
-	Gui, 1:Add, UpDown, vCliques Range1-100000000, 10, 0x80
-	Gui, 1:Add, Button, x9 y50 w122 Default, Open!
-	Gui, 1:Add, Progress, x9 y77 w122 h20 cBlue backgroundWhite -Smooth vCliquesProgresso, 0
+	Gui, 1:Add, UpDown, vCliques1 Range1-100000000, 10, 0x80
+	Gui, 1:Add, Button, x9 y50 w122 Default, Open
+	Gui, 1:Add, Progress, x9 y77 w122 h20 cBlue backgroundWhite -Smooth vCliquesProgresso1, 0
 	Gui, 1:Show, AutoSize
 	WinSet, AlwaysOnTop, On, AutoHotKey
 	Return
 
-	ButtonOpen!:
+	ButtonOpen:
 		Gui, 1:Submit, NoHide
 		WinActivate, ahk_exe bf1.exe
 
-		iCliques := 0
-		Loop %Cliques% {
+		iCliques1 := 0
+		Loop %Cliques1% {
 			clickRel(.25, .63)
 			Sleep, 2000
 			clickRel(1/12, 11/12)  ; skip
@@ -68,22 +68,66 @@ If WinExist("ahk_exe bf1.exe") {
 			Sleep, 2000
 			clickRel(.5, .57)      ; add to inventory
 
-			iCliques+=1
-			ProgressVal := (100*iCliques) / Cliques
-			GuiControl, 1:, CliquesProgresso, %ProgressVal%
-			SB_SetText("Clicando " . iCliques . "/" . Cliques)
+			iCliques1+=1
+			ProgressVal1 := (100*iCliques1) / Cliques1
+			GuiControl, 1:, CliquesProgresso1, %ProgressVal1%
+			SB_SetText("Clicando " . iCliques1 . "/" . Cliques1)
 			Sleep 2000
 		}
 
 		WinActivate
 		Return
 
-	GuiEscape:
-	GuiClose:
+	1GuiEscape:
+	1GuiClose:
+		GuiControl, -Default, Open
 		Gui, 1:Destroy
 		Return
 }
 Return
+
+F7::
+If WinExist("ahk_exe bf1.exe") {
+	Gui, 2:Destroy
+	CoordMode, Mouse, Window
+	WinActivate, ahk_exe bf1.exe
+	Gui, 2:Add, Text,, Sell Items #
+	Gui, 2:Add, Edit
+	Gui, 2:Add, UpDown, vCliques2 Range1-100000000, 1, 0x80
+	Gui, 2:Add, Button, x9 y50 w122 Default, Sell
+	Gui, 2:Add, Progress, x9 y77 w122 h20 cBlue backgroundWhite -Smooth vCliquesProgresso2, 0
+	Gui, 2:Show, AutoSize
+	WinSet, AlwaysOnTop, On, AutoHotKey
+	Return
+
+	2ButtonSell:
+		Gui, 2:Submit, NoHide
+		WinActivate, ahk_exe bf1.exe
+
+		iCliques2 := 0
+		Loop %Cliques2% {
+			clickRel(.66, .60)  ; scrap for 270 button
+			Sleep, 500
+			clickRel(.45, .53)  ; yes
+
+			iCliques2+=1
+			ProgressVal2 := (100*iCliques2) / Cliques2
+			GuiControl, 2:, CliquesProgresso2, %ProgressVal2%
+			SB_SetText("Clicando " . iCliques2 . "/" . Cliques2)
+			Sleep 4000
+		}
+
+		WinActivate
+		Return
+
+	2GuiEscape:
+	2GuiClose:
+		GuiControl, -Default, 2Sell
+		Gui, 2:Destroy
+		Return
+}
+Return
+
 
 ; Note: From now on whenever you run AutoHotkey directly, this script
 ; will be loaded.  So feel free to customize it to suit your needs.
