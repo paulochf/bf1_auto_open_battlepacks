@@ -1,4 +1,4 @@
-# BF1 Auto Open Battlepacks
+# BF1 Battlepacks Opener and Squad XP Boost Seller
 
 Open your infinite Battlepacks without effort!
 
@@ -7,25 +7,55 @@ Open your infinite Battlepacks without effort!
 
 1. Install [AutoHotKey](https://www.autohotkey.com/).
 2. Download the [script file](https://gitlab.com/paulochf/bf1_auto_open_battlepacks/-/raw/master/opener.ahk) to your computer. Pay attention: save the file with .ahk extension!
-3. Run the script (double click it should work). An icon with a white H in a green background should appear in your operational system's icon bar.
-4. Open BF1, go to Video Options screen (More->Options->Video).
-5. For the following video settings, take note of their current values and then replace to:
+3. Run the script (double click it should work). An icon with a white H in a green background should appear in your operating system's icon bar.
+4. Open BF1, go to Video Options screen (More -> Options -> Video).
+5. For the following video settings, take note of their current values and then replace them to:
     - Fullscreen Mode: **Fullscreen**
     - Fullscreen Resolution: **1024x768** (same frequency you were using)
 6. Click on Apply Video Settings at the bottom and confirm you want to keep the settings.
-7. Go back to the Main Menu and enter the Battlepacks screen.
-8. Press F6 to open the script screen.
-9. Fill in the amount of times the script will run. Put a number greater than the Battlepacks you have.
-10. Go for a walk, don't use the PC.
-11. Repeat steps 8-10 until you don't have more boxes.
-12. Go back to the Main Menu, then to Video Options screen (More->Options->Video).
-13. Replace Fullscreen Mode and Fullscreen Resolution to the previous values.
-14. You can right click that "icon with a white H in a green background" and then Exit.
 
+7. Do whatever you want, following the above instructions.
 
-Now you can scrap things for coins:
-- at the Inventory screen (Battlepacks -> Inventory):
-    - scrap the duplicate skins using the button at the left;
-    - scrap the Squad XP Boost: select it at the left, then you should see the scrap button at the right;
+8. In the end, go back to the Main Menu, then to the Video Options screen (More -> Options -> Video).
+9. Replace Fullscreen Mode and Fullscreen Resolution with the previous values.
+10. You can right-click that "icon with a white H in a green background" and then Exit.
+
+Now you can scrap puzzle pieces for coins:
 - at the Puzzles screen (Battlepacks -> Puzzles):
-    - enter each weapon you've built already and scrap its sparing puzzles pieces, if any;
+    - enter each weapon you've built already and scrap its sparing puzzle pieces, if any;
+
+
+## Script Functions
+
+- F6 :: Battlepack Opener
+- F7 :: Skin / Squad XP Boost Seller
+
+
+## Battlepack Opener
+
+1. From the Main Menu, enter the Battlepacks screen (Battlepacks -> Unopened (#)).
+2. Press F6 to open the Opener screen.
+3. Fill in the number of times the script will run. Put the number # of the Battlepacks you have.
+4. Go for a walk, **DON'T USE** the PC!
+5. Repeat steps 1-4 until you don't have more boxes.
+
+
+## Squad XP Boost Seller
+
+1. From the Main Menu, enter the Inventory screen (Battlepacks -> Inventory).
+2. Navigate to Squad XP Boosts in the left column, then click the Boost arrow in the middle section. A button to sell it will appear in the right bar.
+3. Press F7 to open the Seller screen.
+4. Fill in the amount you want to sell.
+5. Go for a walk, **DON'T USE** the PC!
+6. Repeat steps 2-5 as you wish.
+
+
+{- ATTENTION! READ CAREFULLY! -}
+
+You *can* use the Seller to sell duplicated skins, but **you shouldn't**.
+
+**IF** you can't sell all duplicates using the "Scrap Duplicates (#)" button at the left bar in the Inventory screen, choose the skin you want to sell and run the script **_for less than the number you have_**.
+
+Example: If the game shows you have 6 units (with an x6 in the icon's bottom-left corner), **RUN THE SCRIPT FOR 5 TIMES, AT MOST!**. The 6th time will make you run out of the chosen skin!
+
+{- /ATTENTION! READ CAREFULLY! -}
