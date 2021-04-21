@@ -29,6 +29,7 @@ Agora você poderá vender as peças de quebra-cabeça por moedas:
 
 - F6 :: Abridor de Caixas
 - F7 :: Vendedor de Boost de XP
+- F8 :: Vendedor de Peças de Quebra Cabeça
 
 
 ## Abridor de Battlepack
@@ -40,13 +41,23 @@ Agora você poderá vender as peças de quebra-cabeça por moedas:
 5. Repita os passos 1-4 até você não ter mais caixas para abrir.
 
 
+## Vendedor de Peças de Quebra Cabeça
+
+1. A partir do Menu Principal, entre na tela de Inventário (Battlepacks -> Quebra Cabeças).
+2. Escolha a DLC na coluna da esquerda, e então uma arma na seção do meio. Uma tela com a informação da arma escolhida irá aparecer.
+3. Aperte F8 para abrir a tela do Vendedor de Peças.
+4. Preencha com a quantidade de peças que você deseja vender.
+5. **NÃO USE** o computador! Espere o processo terminar!
+6. Refaça os passos 2-5 conforme desejar.
+
+
 ## Vendedor de Squad XP Boost 
 
 1. A partir do Menu Principal, entre na tela de Inventário (Battlepacks -> Inventory).
 2. Clique nos Boosts de XP na coluna da esquerda, e então na seta do Boost na seção do meio. Um botão de vender vai aparecer à direita da tela.
-3. Aperte F7 para abrir a tela do Vendedor.
-4. Preencha com a quantidade de items que você deseja vender
-5. Vá dar um rolê, **NÃO USE** o computador!
+3. Aperte F7 para abrir a tela do Vendedor de Boost.
+4. Preencha com a quantidade de items que você deseja vender.
+5. **NÃO USE** o computador! Espere o processo terminar!
 6. Refaça os passos 2-5 conforme desejar.
 
 
