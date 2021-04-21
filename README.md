@@ -31,6 +31,7 @@ Now you can scrap puzzle pieces for coins:
 - F7 :: Squad XP Boost Seller
 - F8 :: Puzzle Pieces Seller
 
+---
 
 ## Battlepack Opener
 
@@ -40,6 +41,7 @@ Now you can scrap puzzle pieces for coins:
 4. Go for a walk, **DON'T USE** the PC!
 5. Repeat steps 1-4 until you don't have more boxes.
 
+---
 
 ## Puzzle Pieces Seller
 
@@ -50,6 +52,13 @@ Now you can scrap puzzle pieces for coins:
 5. **DON'T USE** the PC! Wait the process finish!
 6. Repeat steps 2-5 as you wish.
 
+{- ATTENTION! READ CAREFULLY! -}
+
+Before selling any pieces, check if you have already built it and you have sparing some, otherwise you will need to find them again in order to build it.
+
+{- /ATTENTION! READ CAREFULLY! -}
+
+---
 
 ## Squad XP Boost Seller
 

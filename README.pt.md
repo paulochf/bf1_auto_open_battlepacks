@@ -31,6 +31,7 @@ Agora você poderá vender as peças de quebra-cabeça por moedas:
 - F7 :: Vendedor de Boost de XP
 - F8 :: Vendedor de Peças de Quebra Cabeça
 
+---
 
 ## Abridor de Battlepack
 
@@ -40,6 +41,7 @@ Agora você poderá vender as peças de quebra-cabeça por moedas:
 4. Vá dar um rolê, **NÃO USE** o computador!
 5. Repita os passos 1-4 até você não ter mais caixas para abrir.
 
+---
 
 ## Vendedor de Peças de Quebra Cabeça
 
@@ -50,6 +52,13 @@ Agora você poderá vender as peças de quebra-cabeça por moedas:
 5. **NÃO USE** o computador! Espere o processo terminar!
 6. Refaça os passos 2-5 conforme desejar.
 
+{- ATENÇÃO! LEIA COM CUIDADO! -}
+
+Antes de vender peças de alguma arma, verifique que você já a possua montada e que essas peças estejam sobrando, caso contrário você precisará encontrar peças para construí-la novamente.
+
+{- /ATENÇÃO! LEIA COM CUIDADO! -}
+
+---
 
 ## Vendedor de Squad XP Boost 
 
@@ -59,7 +68,6 @@ Agora você poderá vender as peças de quebra-cabeça por moedas:
 4. Preencha com a quantidade de items que você deseja vender.
 5. **NÃO USE** o computador! Espere o processo terminar!
 6. Refaça os passos 2-5 conforme desejar.
-
 
 {- ATENÇÃO! LEIA COM CUIDADO! -}
 
