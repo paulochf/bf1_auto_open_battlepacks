@@ -28,8 +28,10 @@ Now you can scrap puzzle pieces for coins:
 ## Script Functions
 
 - F6 :: Battlepack Opener
-- F7 :: Skin / Squad XP Boost Seller
+- F7 :: Squad XP Boost Seller
+- F8 :: Puzzle Pieces Seller
 
+---
 
 ## Battlepack Opener
 
@@ -39,14 +41,32 @@ Now you can scrap puzzle pieces for coins:
 4. Go for a walk, **DON'T USE** the PC!
 5. Repeat steps 1-4 until you don't have more boxes.
 
+---
+
+## Puzzle Pieces Seller
+
+1. From the Main Menu, enter the Inventory screen (Battlepacks -> Puzzles).
+2. Choose a DLC in the left column, then a weapon in the middle section. The weapon info screen will appear.
+3. Press F8 to open the Puzzle Pieces Seller screen.
+4. Fill in the amount you want to sell.
+5. **DON'T USE** the PC! Wait the process finish!
+6. Repeat steps 2-5 as you wish.
+
+{- ATTENTION! READ CAREFULLY! -}
+
+Before selling any pieces, check if you have already built it and you have sparing some, otherwise you will need to find them again in order to build it.
+
+{- /ATTENTION! READ CAREFULLY! -}
+
+---
 
 ## Squad XP Boost Seller
 
 1. From the Main Menu, enter the Inventory screen (Battlepacks -> Inventory).
 2. Navigate to Squad XP Boosts in the left column, then click the Boost arrow in the middle section. A button to sell it will appear in the right bar.
-3. Press F7 to open the Seller screen.
+3. Press F7 to open the Squad XP Boost Seller screen.
 4. Fill in the amount you want to sell.
-5. Go for a walk, **DON'T USE** the PC!
+5. **DON'T USE** the PC! Wait the process finish!
 6. Repeat steps 2-5 as you wish.
 
 

@@ -128,6 +128,50 @@ If WinExist("ahk_exe bf1.exe") {
 }
 Return
 
+F8::
+If WinExist("ahk_exe bf1.exe") {
+	Gui, 3:Destroy
+	CoordMode, Mouse, Window
+	WinActivate, ahk_exe bf1.exe
+	Gui, 3:Add, Text,, Sell Puzzle Pieces #
+	Gui, 3:Add, Edit
+	Gui, 3:Add, UpDown, vCliques3 Range1-100000000, 1, 0x80
+	Gui, 3:Add, Button, x9 y50 w122 Default, SellPieces
+	Gui, 3:Add, Progress, x9 y77 w122 h20 cBlue backgroundWhite -Smooth vCliquesProgresso3, 0
+	Gui, 3:Show, AutoSize
+	WinSet, AlwaysOnTop, On, AutoHotKey
+	Return
+
+	3ButtonSellPieces:
+		Gui, 3:Submit, NoHide
+		WinActivate, ahk_exe bf1.exe
+
+		iCliques3 := 0
+		Loop %Cliques3% {
+			clickRel(.50, .69)  ; scrap for 270 button
+			Sleep, 500
+			clickRel(.45, .53)  ; yes
+
+			iCliques3+=1
+			ProgressVal3 := (100*iCliques3) / Cliques3
+			GuiControl, 3:, CliquesProgresso3, %ProgressVal3%
+			SB_SetText("Clicando " . iCliques3 . "/" . Cliques3)
+			Sleep 4000
+		}
+
+		clickRel(.95, .07)  ; X 
+		Sleep 500
+
+		WinActivate
+		Return
+
+	3GuiEscape:
+	3GuiClose:
+		GuiControl, -Default, 3SellPieces
+		Gui, 3:Destroy
+		Return
+}
+Return
 
 ; Note: From now on whenever you run AutoHotkey directly, this script
 ; will be loaded.  So feel free to customize it to suit your needs.
