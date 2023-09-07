@@ -70,12 +70,12 @@ Before selling any pieces, check if you have already built it and you have spari
 6. Repeat steps 2-5 as you wish.
 
 
-{- ATTENTION! READ CAREFULLY! -}
+**{- ATTENTION! READ CAREFULLY! -}**
 
-You *can* use the Seller to sell duplicated skins, but **you shouldn't**.
+You *can* use the Seller to sell duplicated skins, but **you shouldn't**. It's **EASIER** to use the "Scrap Duplicates" button ingame.
 
 **IF** you can't sell all duplicates using the "Scrap Duplicates (#)" button at the left bar in the Inventory screen, choose the skin you want to sell and run the script **_for less than the number you have_**.
 
 Example: If the game shows you have 6 units (with an x6 in the icon's bottom-left corner), **RUN THE SCRIPT FOR 5 TIMES, AT MOST!**. The 6th time will make you run out of the chosen skin!
 
-{- /ATTENTION! READ CAREFULLY! -}
+**{- /ATTENTION! READ CAREFULLY! -}**
