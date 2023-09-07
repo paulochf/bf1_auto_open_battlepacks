@@ -68,13 +68,13 @@ Antes de vender peças de alguma arma, verifique que você já a possua montada 
 4. Preencha com a quantidade de items que você deseja vender.
 5. **NÃO USE** o computador! Espere o processo terminar!
 6. Refaça os passos 2-5 conforme desejar.
+**
+{- ATENÇÃO! LEIA COM CUIDADO! -}**
 
-{- ATENÇÃO! LEIA COM CUIDADO! -}
-
-Você *pode* usar o Vendedor para vender skins duplicadas, mas **você não deveria**.
+Você *pode* usar o Vendedor para vender skins duplicadas, mas **você não deveria**. É **MUITO MAIS FÁCIL** usar o botão de "X".
 
 **SE** você não puder vender as skins duplicadas usando o botão *"Scrap Duplicates (#)"* à esquerda da tela do Inventário, escolha a skin que você deseja vender e execute o script **_por menos vezes que a quantidade que você tem_**.
 
 Exemplo: Se o jogo mostrar que você tem 6 unidades (com um x6 no canto inferior esquerdo do ícone), **RODE O SCRIPT POR 5 VEZES, NO MÁXIMO!**. A 6ª execução vai fazer com que você não tenha mais essa skin escolhida!
 
-{- /ATENÇÃO! LEIA COM CUIDADO! -}
+**{- /ATENÇÃO! LEIA COM CUIDADO! -}**
